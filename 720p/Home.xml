@@ -731,6 +731,13 @@
 				<posy>70</posy>
 				<onup>9000</onup>
 				<ondown>9002</ondown>
+				<control type="grouplist" id="9099">
+					<include>HomeSubMenuCommonValues</include>
+					<onleft>9099</onleft>
+					<onright>9099</onright>
+					<visible>Container(9000).HasFocus(99)</visible>
+					<include>HomeSubMenuBJJ</include> <!-- Buttons for the grouplist -->
+				</control>
 				<control type="grouplist" id="9010">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9010</onleft>
@@ -913,6 +920,12 @@
 						<icon>-</icon>
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
+					</item>
+					<item id="99">
+						<label>BJJ + MMA</label>
+						<onclick>ActivateWindow(Videos,"smb://lifeline/UFC",return)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
 					</item>
 					<item id="10">
 						<label>20342</label>

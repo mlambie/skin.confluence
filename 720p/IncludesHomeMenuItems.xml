@@ -45,6 +45,33 @@
 			<texture border="0,0,0,3">HomeSubEnd.png</texture>
 		</control>
 	</include>
+	<include name="HomeSubMenuBJJ">
+		<control type="image" id="90991">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90992">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>BJJ Instructionals</label>
+			<onclick>ActivateWindow(Videos,"smb://lifeline/BJJ",return)</onclick>
+		</control>
+		<control type="button" id="90993">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>UFC</label>
+			<onclick>ActivateWindow(Videos,"smb://lifeline/UFC",return)</onclick>
+		</control>
+		<control type="button" id="90994">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Fitness</label>
+			<onclick>ActivateWindow(Videos,"smb://lifeline/Fitness",return)</onclick>
+		</control>
+		<control type="image" id="90999">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
 	<include name="HomeSubMenuMovies">
 		<control type="image" id="90161">
 			<width>35</width>
